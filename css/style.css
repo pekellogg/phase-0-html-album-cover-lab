@@ -63,6 +63,7 @@ p {
 
 span {
   display: inline-block;
+  white-space: nowrap;
   font-size: 1em;
   line-height: 1em;
   letter-spacing: .35em;
@@ -101,10 +102,11 @@ img {
   background: rgba(247,211,27,1);
   text-align: center;
   padding: 130px 35px 35px;
+  block-size: fit-content;
 }
 
 #title-box {
-  width: 252px;
+  width: fit-content;
   height: 165px;
   background: rgba(247,211,27,1);
   margin-left: 163px;
